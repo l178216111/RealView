@@ -1,0 +1,14 @@
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\bin\x86\Debug\Real_view.exe.config
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\bin\x86\Debug\Real_view.exe
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\bin\x86\Debug\Real_view.pdb
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\bin\x86\Debug\Real_view.xml
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\obj\x86\Debug\Real_view.Realview.resources
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\obj\x86\Debug\Real_view.Resources.resources
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\obj\x86\Debug\Real_view.vbproj.GenerateResource.Cache
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\obj\x86\Debug\Real_view.exe
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\obj\x86\Debug\Real_view.xml
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\obj\x86\Debug\Real_view.pdb
+\\10.192.130.43\Probe\Test_probe\Admin\999 Data Team Members\LiuZX\script\my web\Realview\vb\Real_view\Real_view\bin\x86\Debug\Real_view.exe.config
+\\10.192.130.43\Probe\Test_probe\Admin\999 Data Team Members\LiuZX\script\my web\Realview\vb\Real_view\Real_view\obj\x86\Debug\Real_view.exe
+\\10.192.130.43\Probe\Test_probe\Admin\999 Data Team Members\LiuZX\script\my web\Realview\vb\Real_view\Real_view\obj\x86\Debug\Real_view.xml
+\\10.192.130.43\Probe\Test_probe\Admin\999 Data Team Members\LiuZX\script\my web\Realview\vb\Real_view\Real_view\obj\x86\Debug\Real_view.pdb

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome To RealView</title>
+		<meta charset="utf-8">
+	        <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<link href="./css/bootstrap.css" type="text/css" rel="stylesheet">
+		<link href="./css/flat/blue.css" type="text/css" rel="stylesheet">
+                <link rel="stylesheet" href="dist/ladda-themeless.min.css">
+		<script src="dist/spin.min.js"></script>
+		<script src="dist/ladda.min.js"></script>
+		<style>
+				*{margin:0;padding:0}
+			ol, ul { list-style: none; }
+						/*
+			KISSY CSS Reset
+			理念：清除和重置是紧密不可分的
+			特色：1.适应中文 2.基于最新主流浏览器
+			维护：玉伯(lifesinger@gmail.com), 正淳(ragecarrier@gmail.com)
+			*/
+
+			/* 清除内外边距 */
+			body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+			dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+			pre, /* text formatting elements 文本格式元素 */
+			fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+			th, td { /* table elements 表格元素 */
+				margin: 0;
+				padding: 0;
+			}
+
+			/* 重置列表元素 */
+			ul, ol { list-style: none; }
+
+			/* 重置文本格式元素 */
+			a { text-decoration: none; }
+			a:hover { text-decoration: underline; }
+
+			abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+				border-bottom: 1px dotted;
+				cursor: help;
+			}
+
+			q:before, q:after { content: ''; }
+
+			/* 重置表单元素 */
+			legend { color: #000; } /* for ie6 */
+			fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 */
+			/* 注：optgroup 无法扶正 */
+			button, input, select, textarea {
+				font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+			}
+
+			/* 重置表格元素 */
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+
+			/* 重置 hr */
+			hr {
+				border: none;
+				height: 1px;
+			}
+			/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+			a{text-decoration:none;color:#666}
+			.img{width:15.3%;border:1px solid #ccc;float:left;margin:10px 0.5%;position:relative;border-bottom:none}
+			.img img{width:100%;height:150px;display:block;text-align:center;}
+			.img p{font-size:15px;}
+			.img ul{position:absolute;bottom:0px;left:-1px;background:white;border:1px solid #ccc;width:100%;height:0px;border-top:none;overflow:hidden}
+			.img ul li{margin:2px 0px;padding-left:10px}
+			.table1{width:50%;white-space: nowrap;overflow: hidden;}
+		</style>
+	</head>
+	<body>
+		<h1 class="text-center">Welcome to RealView</h1>
+		<form>
+			<input id="checki" type="checkbox" name="platform" value="J750">
+			<label>J750</label>
+	<!--		<input id="checki" type="checkbox" name="platform" value="MST">
+			<label>MST</label>
+            -->         <input id="checki" type="checkbox" name="platform" value="FLEX">
+                        <label>FLEX</label>
+			<input id="check" type="checkbox" name="platform" value="LTK">
+                        <label>LTK</label>
+                        <input id="check" type="checkbox" name="platform" value="LTX">
+                        <label>LTX</label>
+                        <input id="check" type="checkbox" name="platform" value="CAT">
+                        <label>CAT</label>
+                        <input id="check" type="checkbox" name="platform" value="J971">
+                        <label>J971</label>
+			<input id="check" type="checkbox" name="platform" value="93K">
+                        <label>93K</label>
+			<input id="checki" type="checkbox" name="platform" value="INK">
+                        <label>INK</label>
+			<input id="checki" type="checkbox" name="platform" value="T47">
+                        <label>T47</label>
+			<input type="checkbox" id="all" >
+                        <label>ALL</label>
+			<div style="margin-right:50px;">
+		    	<input type="checkbox" id="large" name="large" >
+                        <label>Large Icons(IconsX4 Per Row)</label>
+			</div>
+		 <div id="request-form" class="text-center" >
+                                <button type="button" id="submit" class="ladda-button btn btn-primary" data-style="zoom-in">
+                                        <span class="ladda-label">Submit</span>
+                                </button>
+
+		</div>
+		</form>
+		<div id="myimage">
+		</div>
+		             <div class="modal fade" id="mymodal" >
+                                <div class="modal-dialog">
+                                        <div class="modal-backdrop" style="width:1008px;height:630px;margin:0 auto 1px;">
+                                                <div id="modal_body" class="modal-body" style="width:1008px;height:630px;background-color:#CCFF80;padding:0px 0px 0px 0px;">
+							<img src="" data-dismiss="modal" alt="Loading" id="modal_image" class="carousel-inner img-responsive img-rounded" style="width:100%;height:100%;"/>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+	     <script src="./js/jquery-1.11.3.js"></script>	
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/icheck.js"></script>
+	 <script src="./js/index.js"></script>
+	<script src="./js/verify.js"></script>
+<script>
+$(document).ready(function(){
+  $('input').iCheck({
+    checkboxClass: 'icheckbox_flat-blue',
+    radioClass: 'iradio_flat-blue'
+  });
+});
+</script>
+	</body>
+</html>

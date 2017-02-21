@@ -1,0 +1,9 @@
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\bin\Debug\Real_view.exe
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\bin\Debug\Real_view.pdb
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\bin\Debug\Real_view.xml
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\obj\Debug\Real_view.Realview.resources
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\obj\Debug\Real_view.Resources.resources
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\obj\Debug\Real_view.vbproj.GenerateResource.Cache
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\obj\Debug\Real_view.exe
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\obj\Debug\Real_view.xml
+d:\我的文档\visual studio 2013\Projects\Real_view\Real_view\obj\Debug\Real_view.pdb
